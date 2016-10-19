@@ -2,8 +2,12 @@
 execute pathogen#infect()
 
 " syntax highlighting
-syntax on
+syntax enable
 
 " filetype dedection
 filetype plugin indent on
+
+" color
+set background=dark
+colorscheme solarized
 
